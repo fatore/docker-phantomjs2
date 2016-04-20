@@ -18,7 +18,7 @@ RUN mkdir /phantomjs
 
 WORKDIR /phantomjs
 
-RUN git clone https://github.com/ariya/phantomjs.git . \
+RUN git clone https://github.com/fatore/phantomjs.git . \
 && git submodule init \ 
 && git submodule update 
 
